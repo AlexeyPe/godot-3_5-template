@@ -1,0 +1,22 @@
+[gd_resource type="Theme" load_steps=3 format=2]
+
+[ext_resource path="res://resources/fonts/dynamic_font/new_dynamicfont.tres" type="DynamicFont" id=1]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.682353, 0.00392157, 0.00392157, 1 )
+border_width_left = 6
+border_width_top = 6
+border_width_right = 6
+border_width_bottom = 6
+border_color = Color( 0.227451, 0, 0, 1 )
+border_blend = true
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[resource]
+RedButton/base_type = "Button"
+RedButton/colors/font_color = Color( 1, 1, 1, 1 )
+RedButton/fonts/font = ExtResource( 1 )
+RedButton/styles/normal = SubResource( 1 )
